@@ -4,7 +4,7 @@ Full Stack Developer (AI) Internship Assignment · Jarurat Care NGO · June 2026
 
 
 🔗 Live Demo
-👉 View Live App  |  [GitHub Repo](https://github.com/mayank15067/JaruratCare)
+👉[ View Live App](https://jarurat-care-cbk1.vercel.app/)  |  [GitHub Repo](https://github.com/mayank15067/JaruratCare)
 
 📌 About
 Jarurat Care is a concept-level healthcare support web application that connects patients with volunteers and provides instant AI-powered health guidance. Built for underserved communities across India — accessible on any browser, on any phone, with no app install required.
