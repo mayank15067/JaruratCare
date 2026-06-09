@@ -44,17 +44,16 @@ Provides only general healthcare guidance
 📱 Fully Responsive Design
 ⚡ Typing Indicator Animation
 🎨 Modern NGO-Focused UI
+
+
 🚀 Run Locally
-git clone https://github.com/YOUR_USERNAME/jarurat-care.git
+git clone https://github.com/mayank15067/JaruratCare
 cd jarurat-care
-
 Open:
-
 index.html
-
 in your browser.
-
 No installation required.
+
 
 🌐 Deploy on Vercel
 Push the repository to GitHub
@@ -63,6 +62,7 @@ Import the repository
 Click Deploy
 
 No build command or output directory required.
+
 
 🏥 NGO Use Cases
 Problem	Solution
