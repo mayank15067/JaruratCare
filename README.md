@@ -7,50 +7,75 @@ Full Stack Developer (AI) Internship Assignment · Jarurat Care NGO · June 2026
 👉[ View Live App](https://jarurat-care-cbk1.vercel.app/)  |  [GitHub Repo](https://github.com/mayank15067/JaruratCare)
 
 📌 About
-Jarurat Care is a concept-level healthcare support web application that connects patients with volunteers and provides instant AI-powered health guidance. Built for underserved communities across India — accessible on any browser, on any phone, with no app install required.
+
+Jarurat Care is a healthcare support web application that connects patients with volunteers and provides instant healthcare guidance through JaruratBot.
+
+Built for underserved communities across India, the platform is accessible from any browser without requiring an app installation.
 
 🛠️ Tech Stack
-LayerTechnologyFrontendHTML5, CSS3 (Grid, Flexbox, Custom Properties), Vanilla JavaScript ES6+StylingGoogle Fonts (Inter + Playfair Display), CSS animationsAI / ChatbotAnthropic Claude API — claude-sonnet-4-20250514DeploymentVercel (static, zero-config)ArchitectureSingle-file SPA — no build step, no npm required
+Layer	Technology
+Frontend	HTML5, CSS3, JavaScript (ES6+)
+Styling	CSS Grid, Flexbox, CSS Variables, Google Fonts
+Chatbot	JaruratBot (Healthcare Support Assistant)
+Deployment	Vercel
+Architecture	Static Web Application
+🤖 JaruratBot
 
-🤖 AI Idea — JaruratBot
-The core automation feature is JaruratBot, a real AI health assistant (not a mock) powered by the Claude API.
-What it does:
+JaruratBot is a healthcare support assistant designed to answer common healthcare-related questions and guide users to relevant resources.
 
-Answers health FAQs in plain, accessible language
-Explains government schemes: PM-JAY, Ayushman Bharat, Jan Aushadhi
-Guides users on mental health resources (iCall, Vandrevala Helpline)
-Advises on common symptoms and emergency care
-Explains volunteer/patient registration steps
-
-Why it fits the NGO use-case:
-Jarurat Care receives hundreds of repetitive queries daily. JaruratBot handles them 24/7, freeing volunteers for high-urgency, in-person tasks.
-
+Capabilities
+Explains PM-JAY (Ayushman Bharat)
+Provides information about Jan Aushadhi
+Guides users regarding volunteer registration
+Provides basic health awareness information
+Shares mental health support resources
+Directs patients to appropriate support forms
+Safety Features
+Does not diagnose diseases
+Does not prescribe medicines
+Encourages users to consult qualified healthcare professionals
+Provides only general healthcare guidance
 ✨ Features
-
-🩺 Patient Registration Form — name, age, city, support type, urgency
-🤝 Volunteer Registration Form — role, availability, expertise
-📬 Contact Form — general NGO enquiries
-🤖 Live AI Chatbot — real Claude API with custom healthcare system prompt
-💬 Quick-chip questions — tap to ask common questions
-📱 Mobile-first responsive design
-⚡ Typing indicator animation while AI responds
-
-
+🩺 Patient Registration Form
+🤝 Volunteer Registration Form
+📬 Contact Form
+🤖 Healthcare Support Chatbot
+💬 Quick Question Chips
+📱 Fully Responsive Design
+⚡ Typing Indicator Animation
+🎨 Modern NGO-Focused UI
 🚀 Run Locally
-bashgit clone https://github.com/YOUR_USERNAME/jarurat-care.git
+git clone https://github.com/YOUR_USERNAME/jarurat-care.git
 cd jarurat-care
-# Just open index.html in your browser — no install needed!
+
+Open:
+
+index.html
+
+in your browser.
+
+No installation required.
 
 🌐 Deploy on Vercel
+Push the repository to GitHub
+Login to Vercel
+Import the repository
+Click Deploy
 
-Push repo to GitHub
-Go to vercel.com → New Project → Import repo
-No build command, no output directory — just Deploy
-Live link auto-generated ✅
+No build command or output directory required.
 
-
-🏥 NGO Use-Case
-ProblemSolutionPatients don't know which government scheme appliesJaruratBot explains PM-JAY, Jan Aushadhi instantlyNo 24/7 volunteer availabilityAI chatbot available round the clockManual volunteer onboarding is slowSelf-registration form with role/availability captureHealth misinformation in rural areasVerified AI responses with "consult a doctor" guardrails
-
+🏥 NGO Use Cases
+Problem	Solution
+Lack of healthcare information	JaruratBot provides instant guidance
+Volunteer onboarding delays	Self-registration volunteer form
+Patient support requests	Dedicated patient support form
+Awareness of government schemes	Information on PM-JAY and Jan Aushadhi
+Limited support availability	24/7 chatbot assistance
 👨‍💻 Author
-Mayank · B.Tech CSE, ADGIPS – GGSIPU, New Delhi
+
+Mayank Gupta
+B.Tech CSE — ADGIPS (GGSIPU), New Delhi
+
+Disclaimer
+
+Jarurat Care is a demonstration project created for internship evaluation purposes. The chatbot provides general informational guidance only and should not be considered medical advice.
